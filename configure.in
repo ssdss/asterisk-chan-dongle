@@ -14,7 +14,7 @@ AC_CANONICAL_HOST
 dnl AM_INIT_AUTOMAKE
 
 CPPFLAGS="$CPPFLAGS -D_GNU_SOURCE"
-
+with_astversion=130702;
 dnl Checks for user settings.
 dnl  Set asterisk headers patch
 AC_ARG_WITH(
